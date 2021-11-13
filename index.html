@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                portfolio
+            </div>
+            <div class="menu">
+                <a href="#"><i class="fas fa-home"></i>home</a>
+                <a href="https://www.facebook.com/kasinath.mandal.58/about" target="_blank"><i class="fas fa-users"></i>about</a>
+                <a href="#"><i class="fas fa-book"></i>portfolio</a>
+                <a href="https://www.facebook.com/kasinath.mandal.58/photos_albums" target="_blank"><i class="fas fa-lock"></i>gallery</a>
+                <a href="https://www.facebook.com/kasinath.mandal.58" target="_blank"><i class="fas fa-phone"></i>contact</a>
+
+            </div>
+
+            <div class="s_icons">
+                <i class="fab fa-facebook"></i>
+
+                <i class="fab fa-twitter"></i>
+
+                <i class="fab fa-instagram"></i>
+
+                <i class="fab fa-whatsapp"></i>
+    
+    
+            </div>
+        </nav>
+      
+
+    </header>
+
+    <script>
+        gsap.from("nav",{duration:2 ,x:"-100%"})
+        gsap.from(".menu",{duration:3, delay:"2",x:"0%",opacity:0})
+        gsap.from("s_icons",{duration:2 ,y:"100%", delay:"3"})
+        ;
+    </script>
+    
+</body>
+</html>
